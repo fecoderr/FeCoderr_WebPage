@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Work+Sans:wght@300&display=swap');
+
+:root {
+    --primary-color:#3f413d;
+    --gray: #E5E7EB; 
+}
+
+body{
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin:0px;
+}
+
+hr {
+
+    margin: 2rem 0rem;
+
+}
+.Container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Container-Center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.Link {
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.Primary-Link
+{
+   background-color: var(--primary-color);
+   border-radius: 1rem;
+   color: white 
+
+}
+
+.Secondary-Link {
+    
+   border-radius: 1rem;
+   border: 1px solid var(--primary-color);
+   color:black
+}
+
+.No-BulletList{
+    list-style: none;
+}
+
+.Inline-ListItem{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.Brand-Name{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 0.5rem 0.5rem; 
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.Brand-Name .Hlink{
+    color:white;
+}
+.Brand-Name .HLinkName{
+    text-align: right;
+}
+
+.Brand-Name .Style{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.Brand-Name .Active-Hlink {
+    font-weight: bold;
+}
+
+
+.Hero{
+    padding: 2rem;
+    
+}
+
+.Hero .Hero-Img{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.Hero .Hero-Heading{
+    font-size: xx-large;
+    font-weight:bolder; 
+    text-align: center;
+    color:var(--primary-color);
+    padding-top:1rem;   
+}
+
+.Sect1 h1 {
+    text-align: center;
+}
+
+.Sect2 {
+    background-color: var(--gray);
+
+}
+
+.Sect1 {
+    padding:2rem;
+     
+}
+
+.Footer{
+    text-align: center;
+}
+
+.Footer .Link{
+color: white ;
+}
+
+.Footer .Footer-Header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.Footer ul {
+    padding-inline-start: 0px;
+}
+
+
